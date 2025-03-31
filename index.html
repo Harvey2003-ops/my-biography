@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Biography</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="your-photo.jpg" id="photo" alt="Your Photo">
+        <h1 id="name">Your Name</h1>
+        <p id="intro">Hello! My name is <span id="name">[Your Name]</span>. I am passionate about <span id="hobbies">[Your Interests]</span>. Let's connect!</p>
+        
+        <button class="button" onclick="showSection('food-section')">Favorite Food</button>
+        <div class="section" id="food-section">
+            <h2>Favorite Food</h2>
+            <p id="food">[Your Favorite Food]</p>
+            <img src="food.jpg" alt="Favorite Food">
+        </div>
+        
+        <button class="button" onclick="showSection('sports-section')">Favorite Sports</button>
+        <div class="section" id="sports-section">
+            <h2>Favorite Sports</h2>
+            <p id="sports">[Your Favorite Sports]</p>
+            <img src="sports.jpg" alt="Favorite Sports">
+        </div>
+        
+        <button class="button" onclick="showSection('hobbies-section')">Other Hobbies</button>
+        <div class="section" id="hobbies-section">
+            <h2>Other Hobbies</h2>
+            <p id="hobbies">[Your Other Hobbies]</p>
+            <img src="hobbies.jpg" alt="Other Hobbies">
+        </div>
+        
+        <button class="button" onclick="showSection('place-section')">Dream Place</button>
+        <div class="section" id="place-section">
+            <h2>Dream Place</h2>
+            <p id="place">[Your Dream Place]</p>
+            <img src="place.jpg" alt="Dream Place">
+        </div>
+        
+        <button class="button" onclick="showSection('job-section')">Dream Job</button>
+        <div class="section" id="job-section">
+            <h2>Dream Job</h2>
+            <p id="job">[Your Dream Job]</p>
+            <img src="job.jpg" alt="Dream Job">
+        </div>
+    </div>
+</body>
+</html>
